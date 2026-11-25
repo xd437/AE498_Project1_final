@@ -97,7 +97,7 @@ def figure_results():
     ax_b.set_xlim(-0.6, 1.6)
     ax_b.set_xticks(x)
     ax_b.set_xticklabels([r"viscous $\dot R/R$", r"surface tension $1/R$"])
-    ax_b.set_ylabel("coefficient (SI units)")
+    ax_b.set_ylabel("coefficient")
     ax_b.legend(fontsize=6.5, loc="lower center", bbox_to_anchor=(0.5, 0.02),
                 frameon=True, framealpha=0.9, edgecolor="none")
     ax_b.set_title("(b) forced fit of the four RP terms (95% CI)", fontsize=9)
