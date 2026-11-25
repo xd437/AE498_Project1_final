@@ -19,9 +19,3 @@ Then run:
 python rp_sindy_radius_final.py        # prints all numbers in Section IV of the report (a few seconds)
 python make_figures_final.py           # writes fig_radius.pdf (Fig. 1) and fig_results.pdf (Fig. 2)
 ```
-
-Anaconda already includes all four packages, so no installation is needed there. If pip refuses
-to install into the system Python, use `python -m pip install --user -r requirements.txt` or a
-virtual environment (`python -m venv .venv`).
-
-The scripts find the data relative to their own location, so they can be run from any folder.
